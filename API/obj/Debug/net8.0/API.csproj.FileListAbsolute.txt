@@ -34,3 +34,4 @@ C:\Users\Cinthia de Paula\Desktop\TESTE\packinvest\API\obj\Debug\net8.0\refint\A
 C:\Users\Cinthia de Paula\Desktop\TESTE\packinvest\API\obj\Debug\net8.0\API.pdb
 C:\Users\Cinthia de Paula\Desktop\TESTE\packinvest\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Cinthia de Paula\Desktop\TESTE\packinvest\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Cinthia de Paula\Desktop\TESTE\packinvest\API\obj\Debug\net8.0\API.sourcelink.json

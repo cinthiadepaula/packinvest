@@ -1,0 +1,39 @@
+<h2 class="title">Tela de Cadastro</h2>
+<form (ngSubmit)="onSubmit()" #cadastroForm="ngForm" class="form-container">
+  <div class="form-group">
+    <label for="parcelas">Quantidade de Parcelas:</label>
+    <input
+      type="number"
+      id="parcelas"
+      name="parcelas"
+      [(ngModel)]="parcelas"
+      required
+      class="form-input"
+      placeholder="Digite a quantidade de parcelas"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="valor">Valor da Parcela:</label>
+    <input
+      type="number"
+      id="valor"
+      name="valor"
+      [(ngModel)]="valor"
+      required
+      class="form-input"
+      placeholder="Digite o valor da parcela"
+    />
+  </div>
+
+  <div class="buttons-container">
+    <button type="submit" class="submit-btn">Salvar</button>
+    <button routerLink="/" class="btn-voltar">Voltar</button>
+  </div>
+
+</form>
+
+<!-- Resultado -->
+<div *ngIf="resultado !== null" class="result-container">
+  <p>Valor Calculado: {{ resultado | currency:'BRL' }}</p>
+</div>

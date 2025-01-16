@@ -1,0 +1,111 @@
+
+.page-title {
+  text-align: center;
+  color: #4A90E2;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.consulta-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-voltar, .btn-submit {
+  background-color: #080074;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn-voltar:hover {
+  background-color: #040042;
+}
+
+.btn-submit:hover {
+  background-color: #040042;
+}
+
+.result-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.result-container {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #040042;
+}
+
+.highlight {
+  color:#040042;
+}
+
+.no-result {
+  color: #E94F58;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .consulta-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .page-title,
+  .result-title {
+    font-size: 1.5rem;
+  }
+
+  .result {
+    font-size: 1rem;
+  }
+
+  .btn-submit {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+}

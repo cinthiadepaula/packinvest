@@ -1,0 +1,81 @@
+/* Estilos para a Home */
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  text-align: center;
+}
+
+.home-header {
+  background-color: #080074;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.home-header .description {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.btn-primary {
+  background-color:#080074;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color:#040042;
+}
+
+.btn-secondary {
+  background-color:#080074;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #040042;
+}
+
+/* Rodapé */
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10 0;
+    width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
